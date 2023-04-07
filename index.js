@@ -10,9 +10,17 @@ app.set('view engine', 'hbs')
 app.use(express.static('public'))
 
 const loansJSON = 'loansJSON.json';
-const loans = JSON.parse(readFileSync(loansJSON));
+const loansData = JSON.parse(readFileSync(loansJSON));
 
 app.get('/', (req, res) => {    
     res.render('index', {loans})
 })
 
+app.post('/calculateLoan', urlEncodedParser, (req, res) => {
+    const {loanAmount, loanTerm, interestRate} = req.body;
+
+
+    loansData.push(completeLoanObject)
+    writeFileSync(loansJSON, JSON.stringify(loansData, null, 2))
+
+})
