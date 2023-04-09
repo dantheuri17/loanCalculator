@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1681035243180" clover="3.2.0">
+  <project timestamp="1681035243181" name="All files">
+    <metrics statements="27" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1" elements="30" coveredelements="21" complexity="0" loc="27" ncloc="27" packages="1" files="1" classes="1"/>
+    <file name="index.js" path="C:\Users\User\Desktop\Mortgage-Calculator\index.js">
+      <metrics statements="27" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="28" count="11" type="stmt"/>
+      <line num="29" count="11" type="stmt"/>
+      <line num="31" count="11" type="stmt"/>
+      <line num="33" count="11" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="39" count="0" type="stmt"/>
+      <line num="44" count="0" type="stmt"/>
+      <line num="49" count="0" type="stmt"/>
+      <line num="50" count="0" type="stmt"/>
+      <line num="51" count="0" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="55" count="1" type="stmt"/>
+      <line num="57" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

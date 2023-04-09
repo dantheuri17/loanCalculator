@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "loanAmout": "324",
+    "loanTerm": "312",
+    "interestRate": "423",
+    "monthlyPayment": null
+  },
+  {
+    "loanAmount": "3212",
+    "loanTerm": "42",
+    "interestRate": "12",
+    "monthlyPayment": 94.033310826343
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 250000
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": ".08",
+    "monthlyPayment": 357345.2002822614
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": ".08",
+    "monthlyPayment": 357345.2002822614
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": ".08",
+    "monthlyPayment": 733.764573879378
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 66666.66666666666
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 733.7645738793783
+  },
+  {
+    "loanAmount": "50000",
+    "loanTerm": "1",
+    "interestRate": "",
+    "monthlyPayment": null
+  },
+  {
+    "loanAmount": "50000",
+    "loanTerm": "1",
+    "interestRate": "0",
+    "monthlyPayment": null
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 733.764573879378
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 66666.66666666666
+  },
+  {
+    "loanAmount": "500000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 3668.82286939689
+  },
+  {
+    "loanAmount": "500000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 3668.82286939689
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 733.764573879378
+  }
+]
