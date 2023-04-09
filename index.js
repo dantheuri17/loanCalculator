@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const { readFileSync, writeFileSync } = require("fs");
 const urlEncodedParser = bodyParser.urlencoded({ extended: false });
-const port = 3000;
+const port = port.env.PORT || 3000;
 
 app.set("views", "views");
 app.set("view engine", "hbs");
