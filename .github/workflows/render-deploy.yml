@@ -1,1 +1,27 @@
-#hello world
+# Script to deploy on the Render cloud platform
+
+name: Node.js CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request: 
+    branches: [ main ]
+
+jobs: 
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps: 
+    - uses: actions/checkout@v2
+    - uses: bounceapp/render-action@0.6.0
+      with: 
+        render-token: ${{secrets.RENDER_API_KEY}}
+        github-token: ${{secrets.ACC_API_KEY}} #This is the Github token
+        service-id: "srv-cgp9fi0u9tun42sbn5l0?key=HWJyg97IkqQ"
+        retries: 20
+        wait: 16000
+        sleep: 30000
+
+# Just adding a comment to check my worka
