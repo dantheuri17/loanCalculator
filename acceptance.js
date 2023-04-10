@@ -5,7 +5,7 @@ try {
     (async () => {
         const browser = await puppeteer.launch({ headless: true });
         const page = await browser.newPage();
-        await page.goto('https://api.render.com/deploy/srv-cgp9fi0u9tun42sbn5l0?key=HWJyg97IkqQ');
+        await page.goto("https://loancalculator-13oy.onrender.com");
         const loanAmountInput = await page.$('#loanAmount');
         await loanAmountInput.type('100000');
         const loanTermInput = await page.$('#loanTerm');
@@ -17,7 +17,6 @@ try {
         await page.waitForSelector('#monthlyPayment');
         const monthlyPayment = await page.$eval('#monthlyPayment', el => el.textContent);
         assert.equal(monthlyPayment, '733.76');
-        console.log('Test passed');
         await browser.close();
 }) (); 
 } 
