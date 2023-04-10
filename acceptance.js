@@ -5,7 +5,7 @@ try {
     (async () => {
         const browser = await puppeteer.launch({ headless: true });
         const page = await browser.newPage();
-        await page.goto("https://loancalculator-13oy.onrender.com");
+        await page.goto('http://localhost:3000');
         const loanAmountInput = await page.$('#loanAmount');
         await loanAmountInput.type('100000');
         const loanTermInput = await page.$('#loanTerm');
