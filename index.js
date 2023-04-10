@@ -51,7 +51,7 @@ app.post("/calculateLoan", urlEncodedParser, (req, res) => {
 	res.render("resultMonthlyPayment", {completeLoanObject});
 });
 
-app.listen(port);
+const server = app.listen(port);
 console.log(`server is listening on port ${port}`);
 
-module.exports = { calculateLoan };
+module.exports = { calculateLoan, server };

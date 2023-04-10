@@ -88,5 +88,11 @@
     "loanTerm": "30",
     "interestRate": "8",
     "monthlyPayment": 733.764573879378
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 733.764573879378
   }
 ]
