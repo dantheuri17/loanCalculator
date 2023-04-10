@@ -30,5 +30,8 @@ jobs:
         retries: 20
         wait: 16000
         sleep: 30000
-    - run: npm ci
-    - run: npm test
+    
+    - name: Running unit and acceptance tests
+      - run: npm ci
+      - run: npm test
+      - run: node acceptance

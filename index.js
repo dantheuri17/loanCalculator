@@ -30,7 +30,7 @@ function calculateLoan(loanAmount, loanTerm, interestRate) {
 
 	const monthlyPayment =	loanAmount *(interestRate * Math.pow((1 + interestRate), loanTerm)) / (Math.pow((1 + interestRate), loanTerm) - 1);
 
-	return monthlyPayment;
+	 return parseFloat(monthlyPayment.toFixed(2));
 }
 
 app.post("/calculateLoan", urlEncodedParser, (req, res) => {
