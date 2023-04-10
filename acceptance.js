@@ -5,7 +5,7 @@ try {
     (async () => {
         const browser = await puppeteer.launch({ headless: true });
         const page = await browser.newPage();
-        await page.goto('http://localhost:3000');
+        await page.goto('https://api.render.com/deploy/srv-cgp9fi0u9tun42sbn5l0?key=HWJyg97IkqQ');
         const loanAmountInput = await page.$('#loanAmount');
         await loanAmountInput.type('100000');
         const loanTermInput = await page.$('#loanTerm');
