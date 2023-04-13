@@ -1,1 +1,40 @@
 /* Hello World */ 
+
+form {
+    display: flex; 
+    flex-direction: column; 
+    width: 60%;
+}
+
+.formContainer {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+label {
+    font-size: 1.5em; 
+    margin-bottom: 0.5em; 
+}
+
+.inputs {
+    line-height: 2.5em; 
+    margin-bottom: 1em; 
+}
+
+#submitButton {
+    background-Color: #0157FF;
+    color: white;
+    line-height: 2em; 
+}
+
+#submitButton:hover {
+    background-Color: #0000FF;
+}
+
+
+#submitButton:active {
+    background-Color: #0047A0;
+}
+
+

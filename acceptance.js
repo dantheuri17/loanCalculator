@@ -17,6 +17,7 @@ try {
         await page.waitForSelector('#monthlyPayment');
         const monthlyPayment = await page.$eval('#monthlyPayment', el => el.textContent);
         assert.equal(monthlyPayment, '733.76');
+        console.log('Test passed')
         await browser.close();
 }) (); 
 } 
