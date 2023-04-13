@@ -13,7 +13,7 @@ form {
 }
 
 label {
-    font-size: 1.5em; 
+    font-size: 1.8em; 
     margin-bottom: 0.5em; 
 }
 
@@ -27,6 +27,7 @@ label {
     background-Color: #0157FF;
     color: white;
     line-height: 2.5em; 
+    font-size: 1.5em;
 }
 
 #submitButton:hover {
@@ -61,4 +62,22 @@ label {
 
 #monthlyPayment::before {
   content: "$";
+}
+
+/* Remove the default arrows */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  /* Use text field appearance in Firefox */
+  -moz-appearance: textfield;
+  
+}
+
+input[type=number]::after {
+    content: "years"; 
+    margin-left: 5px;
 }
