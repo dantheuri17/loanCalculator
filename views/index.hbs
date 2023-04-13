@@ -23,6 +23,16 @@
 		</form>
 
 	</div>
+
+	<script>
+		var numberInputs = document.querySelectorAll('input[type=number]');
+
+			for (var i = 0; i < numberInputs.length; i++) {
+				numberInputs[i].addEventListener('input', function () {
+					this.value = this.value.replace(/[^0-9]/g, '');
+				});
+			}
+	</script>
 </body>
 
 </html>

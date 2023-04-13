@@ -20,12 +20,13 @@ label {
 .inputs {
     line-height: 2.5em; 
     margin-bottom: 1em; 
+    font-size: 1.5em;
 }
 
 #submitButton {
     background-Color: #0157FF;
     color: white;
-    line-height: 2em; 
+    line-height: 2.5em; 
 }
 
 #submitButton:hover {
@@ -37,4 +38,27 @@ label {
     background-Color: #0047A0;
 }
 
+.resultBody {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
 
+.paymentHeading {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+#monthlyPayment {
+  font-size: 2.3em;
+  font-weight: bold;
+  color: #0070c0;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#monthlyPayment::before {
+  content: "$";
+}

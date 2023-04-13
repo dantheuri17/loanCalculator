@@ -118,5 +118,71 @@
     "loanTerm": "30",
     "interestRate": "8",
     "monthlyPayment": 733.76
+  },
+  {
+    "loanAmount": "",
+    "loanTerm": "",
+    "interestRate": "",
+    "monthlyPayment": null
+  },
+  {
+    "loanAmount": "1000000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 7337.65
+  },
+  {
+    "loanAmount": "1000000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 7337.65
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 733.76
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 733.76
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 733.76
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 733.76
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 733.76
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 733.76
+  },
+  {
+    "loanAmount": "100000",
+    "loanTerm": "30",
+    "interestRate": "8",
+    "monthlyPayment": 733.76
+  },
+  {
+    "loanAmount": "322424",
+    "loanTerm": "12",
+    "interestRate": "3",
+    "monthlyPayment": 2668.98
   }
 ]
